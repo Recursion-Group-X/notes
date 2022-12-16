@@ -12,6 +12,7 @@
 |git switch -c	                          | ブランチ作成&切り替え        |
 |git branch　                              | 今いるブランチを確認する      |
 |git pull origin ブランチ名 --rebase	        | ブランチを最新の状態にする    | 
+|git fetch origin pull/{PRID}/head:{BRANCHNAME} |プルリクをローカルで確認 |
 
 `--rebase`ってしているのは `git pull` をしたときに不要なコミットを防ぐためです。
 
